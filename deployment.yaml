@@ -20,6 +20,8 @@ spec:
       containers:
       - image: riteshdockerid/test:9
         name: flaskdemo
+        command: [ "sleep" ] //newlyadded
+        args: [ "infinity" ] //newlyadded
         resources: {}
 status: {}
 ---
