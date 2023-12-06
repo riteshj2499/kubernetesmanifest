@@ -18,7 +18,7 @@ spec:
         app: flaskdemo
     spec:
       containers:
-      - image: riteshdockerid/test:10
+      - image: riteshdockerid/test:13
         name: flaskdemo
         command: [ "sleep" ] #newlyadded
         args: [ "infinity" ] #newlyadded
